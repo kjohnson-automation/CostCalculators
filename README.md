@@ -12,7 +12,9 @@
 `use`: python buyers_cost.py -b <home_cost> -d <down_payment> -i <insurance_premium> -t <property_tax> -c <close_date>
 
  - -b (home_cost): current accepted offer for the home *required*
- - -d (down_payment): downpayment amount in percent (0.XX) or dollars $1+ *optional*
- - -i (insurance_premium): Yearly insurance premium, escrow amount adjusted and added as well *optional*
- - -t (property_tax): Yearly property tax liability, escrow amount adjusted and added as well *optional*
- - -c (close_date): Close date on the property to adjust for escrow amounts *optional*
+ - -d (down_payment): downpayment amount in percent (0.XX) or dollars $1+, *optional*
+ - -i (insurance_premium): Yearly insurance premium, escrow amount adjusted and added as well, *optional*
+ - -t (property_tax): Yearly property tax liability, escrow amount adjusted and added as well, *optional*
+ - -c (close_date): Close date on the property to adjust for escrow amounts, *optional*
+
+**NOTE:** Buyers costs are NOT exact but pretty close vs the sheets I've been given from lenders.
